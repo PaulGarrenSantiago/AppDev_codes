@@ -76,7 +76,7 @@
                 <div class = "activity-box">
                     <a class="activity" href="activity1.php">Activity 1</a> </br>
                     <a class="activity" href="activity2.php">Activity 2</a> </br>
-                    <a class="activity" href="#">Activity 3</a> </br>
+                    <a class="activity" href="activity3.php">Activity 3</a> </br>
                     <a class="activity" href="#">Activity 4</a> </br>
                 </div>
             </center>
