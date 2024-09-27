@@ -4,8 +4,11 @@
         <title>3BSIT-1</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <style type="text/css">
-            body {
-                background-color: #A6D9F7;
+           body {
+                background-image: url("images/bgbody.gif"); /* Correct the slashes */
+                background-size: cover; /* Ensures the GIF covers the entire background */
+                background-position: center; /* Centers the background */
+                background-repeat: no-repeat; /* Ensures the image doesn't repeat */
                 margin: 0;
                 display: flex;
                 flex-direction: column;
@@ -23,7 +26,7 @@
             }
             
             .head-text {
-                font-size: 40px;
+                font-size: 20px;
                 text-align: center;
                 font-family: Helvetica; 
                 font-weight: bold;
@@ -60,7 +63,6 @@
                 text-align: center;
             }
             
-
         </style>
     </head>
     <header class="custom-container">

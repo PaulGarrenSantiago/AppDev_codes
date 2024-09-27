@@ -10,6 +10,155 @@
         <body>
 
             <h1>Activity 3</h1>
+
+            <div class="container-fluid">
+                <ul class="pager">
+                    <li class="previous"><a href="#">Previous</a></li>
+                    <li class="next"><a href="#">Next</a></li>
+                </ul>
+
+                <ul class="pagination pagination-sm">
+                    <li><a href="#">1</a></li>
+                    <li class="active"><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <ul class="pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li class="disabled"><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+                <ul class="pagination pagination-lg">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            
+            </div>
+
+
+            <br/>
+            <br/>
+            <br/>
+            <hr>
+            <div class="container-fluid">
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="#p1" data-toggle="pill">Home</a></li>
+                    <li><a href="#p2" data-toggle="pill">About Us</a></li>
+                    <li><a href="#p3" data-toggle="pill">Contact Us</a></li>
+                    <li><a href="#p4" data-toggle="pill">Product</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="p1" class="tab-pane fade in active">Welcome to Home</div>
+                    <div id="p2" class="tab-pane fade">Welcome to About us</div>
+                    <div id="p3" class="tab-pane fade">Welcome to Contact us</div>
+                    <div id="p4" class="tab-pane fade">Welcome to product</div>
+                </div>
+
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#t1" data-toggle="tab">Home</a></li>
+                    <li><a href="#t2" data-toggle="tab">About Us</a></li>
+                    <li><a href="#t3" data-toggle="tab">Contact Us</a></li>
+                    <li><a href="#t4" data-toggle="tab">Product</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="t1" class="tab-pane fade in active">Welcome to Home</div>
+                    <div id="t2" class="tab-pane fade">Welcome to About us</div>
+                    <div id="t3" class="tab-pane fade">Welcome to Contact us</div>
+                    <div id="t4" class="tab-pane fade">Welcome to product</div>
+                </div>
+
+            </div>
+
+
+            <br/>
+            <br/>
+            <br/>
+            <hr>
+            <div class="container-fluid">
+
+                <ul class="nav nav-pills">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+            
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PHP <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PHP-function</a></li>
+                            <li><a href="#">PHP-MYSQL</a></li>
+                            <li><a href="#">PHP-Loop</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="#">HOME</a></li>
+                    <li class="active"><a href="#">HTML</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+                
+            </div>
+
+
+            <br/>
+            <br/>
+            <br/>
+            <hr>
+            <div class="container-fluid">
+                <ul class="list-inline">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+
+                <ul class="nav nav-tabs">
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">HTML</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+
+                <ul class="nav nav-tabs">
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">HTML</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="" data-toggle="dropdown">PHP <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PHP-function</a></li>
+                            <li><a href="#">PHP-MYSQL</a></li>
+                            <li><a href="#">PHP-Loop</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+            </div>
+
+
+            <br/>
+            <br/>
+            <hr>
             <div class="container-fluid">
                 <div class="panel-group" id="myaccordion">
 
